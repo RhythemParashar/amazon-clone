@@ -1,0 +1,19 @@
+.orders {
+    padding: 20px 80px;
+}
+
+.orders > h1 {
+    margin: 30px 0;
+}
+
+@media (max-width: 600px) {
+    .orders {
+        padding: 10px;
+    }
+
+    .orders > h1 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
